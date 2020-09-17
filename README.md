@@ -5,12 +5,7 @@ Packages that I need for software development in windows 10. Every command here 
 ## Chocolatey & Scoop
 Chocolatey and Scoop basically is a package manager for Windows similiar to apt-get/yum/homebrew. It makes managing software easy as fuck
 
-    Set-ExecutionPolicy AllSigned
-    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-    
-    iwr -useb chocolatey.org/install.ps1 | iex
-    iwr -useb get.scoop.sh | iex
-    scoop bucket add extras
+    Set-ExecutionPolicy AllSigned; Set-ExecutionPolicy RemoteSigned -scope CurrentUser; iwr -useb chocolatey.org/install.ps1 | iex; iwr -useb get.scoop.sh | iex; scoop bucket add extras
     
 ## VSCode
     # It's 90.0MB
