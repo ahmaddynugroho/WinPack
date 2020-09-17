@@ -9,7 +9,7 @@ Chocolatey and Scoop basically is a package manager for Windows similiar to apt-
     Set-ExecutionPolicy AllSigned; Set-ExecutionPolicy RemoteSigned -scope CurrentUser
     
     # choco and scoop
-    iwr -useb chocolatey.org/install.ps1 | iex; iwr -useb get.scoop.sh | iex; scoop bucket add extras
+    iwr -useb chocolatey.org/install.ps1 | iex; iwr -useb get.scoop.sh | iex; scoop update; scoop bucket add extras
     
 ## VSCode
     # It's 90.0MB
