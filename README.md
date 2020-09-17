@@ -16,7 +16,7 @@ Chocolatey and Scoop basically is a package manager for Windows similiar to apt-
     scoop install vscode
 
     # Must have vscode extensions
-    code --install-extension esbenp.prettier-vscode vscode-icons-team.vscode-icons vmsynkov.colonize
+    code --install-extension esbenp.prettier-vscode; code --install-extension vscode-icons-team.vscode-icons; code --install-extension vmsynkov.colonize
     
     # Java Extension Pack
     code --install-extension vscjava.vscode-java-pack
