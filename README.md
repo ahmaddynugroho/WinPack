@@ -30,6 +30,9 @@ Packages that I need for software development in windows 10. Every command here 
     
     # ESLiint
     code --install-extension dbaeumer.vscode-eslint
+    
+    # Tailwindcss Intellisense
+    code --install-extension bradlc.vscode-tailwindcss
 
 ## Packages
 #### Git(50.0MB)
