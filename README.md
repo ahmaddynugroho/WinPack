@@ -17,7 +17,7 @@ Packages that I need for software development in windows 10. Every command here 
     scoop install vscode
 
     # Must have vscode extensions
-    code --install-extension esbenp.prettier-vscode; code --install-extension pkief.material-icon-theme; code --install-extension vmsynkov.colonize
+    code --install-extension esbenp.prettier-vscode; code --install-extension pkief.material-icon-theme; code --install-extension vmsynkov.colonize; code --install-extension editorconfig.editorconfig; code --install-extension jbockle.jbockle-format-files
     
     # Java Extension Pack
     code --install-extension vscjava.vscode-java-pack
@@ -27,6 +27,9 @@ Packages that I need for software development in windows 10. Every command here 
     
     # Vetur for Vuejs 
     code --install-extension octref.vetur
+    
+    # ESLiint
+    code --install-extension dbaeumer.vscode-eslint
 
 ## Packages
 #### Git(50.0MB)
