@@ -16,8 +16,8 @@ Packages that I need for software development in windows 10. Every command here 
     # It's 90.0MB
     scoop install vscode
 
-    # Must have vscode extensions, then set keybinding for jumpy
-    code --install-extension esbenp.prettier-vscode; code --install-extension pkief.material-icon-theme; code --install-extension wmaurer.vscode-jumpy; code --install-extension editorconfig.editorconfig; code --install-extension jbockle.jbockle-format-files
+    # Must have vscode extensions(prettier, material-icon-theme, colonize, find-jump, editorconfig, & format-files), then set keybinding for find-jump (I set it to ctrl+;)
+    code --install-extension esbenp.prettier-vscode; code --install-extension pkief.material-icon-theme; code --install-extension vmsynkov.colonize; code --install-extension mksafi.find-jump; code --install-extension editorconfig.editorconfig; code --install-extension jbockle.jbockle-format-files
     
     # Java Extension Pack
     code --install-extension vscjava.vscode-java-pack
