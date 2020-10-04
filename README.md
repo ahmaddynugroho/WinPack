@@ -35,13 +35,15 @@ Packages that I need for software development in windows 10. Every command here 
     code --install-extension bradlc.vscode-tailwindcss
 
 ## Packages
+#### Hyper(60MB)
+    scoop install hyper
+    # Font-family: "Fira Code"; plugins: ['hyper-oceans16', 'hyper-tabs-enhanced', 'hyper-statusline']
 #### Git(50.0MB)
     scoop install git
 #### Java(200.0MB) & Intellij IDEA (700.0MB)
     scoop install openjdk idea
 #### Python(40.0MB) & PyCharm (300.0MB)
     scoop install python pycharm
-
     # If you need that damn Anaconda just for it's Jupyter Notebook, just use vscode python extension
 #### Nodejs LTS(15.0MB) & YARN(2.0MB)
     scoop install nodejs-lts yarn
