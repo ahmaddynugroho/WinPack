@@ -4,7 +4,7 @@
 Packages that I need for software development in windows 10. Every command here has to be executed in Powershell UwU
 
 ## Chocolatey & Scoop
-[Chocolatey](https://chocolatey.org/) and [Scoop](https://github.com/lukesampson/scoop/wiki) basically is a package manager for Windows similiar to apt-get/yum/homebrew. It makes managing software easy as fuck
+[Chocolatey](https://chocolatey.org/) and [Scoop](https://github.com/lukesampson/scoop/wiki) basically are kind of package manager for Windows similiar to apt-get/yum/homebrew. It makes managing software easy as fuck
 
     # PoSH Execution Policy
     Set-ExecutionPolicy AllSigned; Set-ExecutionPolicy RemoteSigned -scope CurrentUser
