@@ -49,4 +49,6 @@ Packages that I need for software development in windows 10. Every command here 
     scoop install nodejs-lts yarn
 #### XAMPP(160.0MB) & Composer(2.0MB)
     scoop bucket add nonportable; scoop install xampp-np composer
+#### NeoVIm(25MB)
+    scoop install neovim
     
