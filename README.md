@@ -12,6 +12,10 @@ Packages that I need for software development in windows 10. Every command here 
     # choco and scoop
     iwr -useb chocolatey.org/install.ps1 | iex; iwr -useb get.scoop.sh | iex; scoop update; scoop bucket add extras
     
+## Neovim
+config at [my nvim repo](https://github.com/ahmaddynugroho/nvim)
+    scoop install neovim
+    
 ## VSCode
     # It's 90.0MB
     scoop install vscode
@@ -49,8 +53,8 @@ Packages that I need for software development in windows 10. Every command here 
     scoop install nodejs-lts yarn
 #### XAMPP(160.0MB) & Composer(2.0MB)
     scoop bucket add nonportable; scoop install xampp-np composer
-#### NeoVIm(25MB)(ahmaddynugroho/nvim for nvim config)
-    scoop install neovim
+#### Dart(150MB) & dart-dev(150MB)
+    scoop install dart dart-dev
 #### Flutter(160MB)
     scoop bucket add java
     scoop install flutter
