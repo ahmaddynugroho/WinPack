@@ -14,6 +14,7 @@ Packages that I need for software development in windows 10. Every command here 
     
 ## Neovim
 config at [my nvim repo](https://github.com/ahmaddynugroho/nvim)
+
     scoop install neovim
     
 ## VSCode
